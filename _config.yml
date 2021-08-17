@@ -1,18 +1,19 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap"
-url: "https://sylhare.github.io"
+baseurl: ""
+url: "https://nickchen120235.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+title: Nick手札
+description: Nick的雜七雜八筆記
+avatar: assets/img/flight.png
+favicon: assets/favicon.ico
 
 # Header and footer text
 header_text: Change <code>header_text</code> in <code>_config.yml</code>  # Change Blog header text
-header_feature_image: assets/img/pexels/triangular.jpeg
+# header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
+  <div>Avatar icon made by <a href="" title="surang">surang</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
@@ -24,27 +25,22 @@ color_image: /assets/img/lineart.png                    # A bit transparent for 
 # For layout customization, go to the "_sass > base" folder, and check "_variables.scss"
 katex: true                                             # Enable if using math markup
 mermaid: true                                           # Enable mermaid-js for sequence and diagrams
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
 cookie_consent: false                                   # To respect the usage of cookies
 color_theme: auto                                       # auto, dark or light
 
 # Comments
 comments:
-  disqus_shortname:                                     # Your discus shortname for comments
-  cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
-    repo:                                               # your public comments repository (e.g. owner/repo)
-    issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
+  cusdis_app_id: 7d9490ed-ac11-494e-bf6c-262c3683f581
 
 # PAGINATION
 paginate: 5
 paginate_path: "/blog/page:num"
 
 # PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
+# collections:
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:name
 
 # BUILD SETTINGS
 sass:
