@@ -386,8 +386,8 @@ log.info(f'[3] system_runtime = {hex(system_runtime)}')
 > *The x86-64 System V ABI guarantees 16-byte stack alignment before a call, so libc system is allowed to take advantage of that for 16-byte aligned loads/stores. If you break the ABI, it's your problem if things crash.*
 > 
 > *`%rsp` The stack pointer holds the address of the byte with lowest address which is part of the stack. It is guaranteed to be 16-byte aligned at process entry.*
-> 
-> 也就是在進行function call的時候，stack必須以16 bytes對齊，也就是`%rsp`必須為以`0`為結尾。任何的`pop`都是以8 bytes為單位移動，雖然大多數情況下都會自動調整，不過在亂搞的情況下還是有機會把地址弄壞
+
+也就是在進行function call的時候，stack必須以16 bytes對齊，也就是`%rsp`必須為以`0`為結尾。任何的`pop`都是以8 bytes為單位移動，雖然大多數情況下都會自動調整，不過在亂搞的情況下還是有機會把地址弄壞
 
 這邊的情況是
 ```
@@ -413,7 +413,7 @@ payload += p64(system_runtime) # to system
 
 本地成功了，那來試試遠端
 
-{% include aligner.html images="posts/2021-08-17-return-oriented-programming/final-local.png" column=1 %}
+{% include aligner.html images="posts/2021-08-17-return-oriented-programming/final-remote.png" column=1 %}
 
 成功！最後的exploit長這樣
 ```py
