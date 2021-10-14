@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kubernetes學習筆記
-tags: [notes]
+tags: [Notes]
 ---
 
 今天在公司<s>薪偷</s>找點東西學（<s>Web題那麼無聊我才不要繼續研究</s>）
