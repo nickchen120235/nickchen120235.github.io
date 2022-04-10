@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Learning tcache - picoCTF 2021 Cache Me Outside
-tags: [CTF, reverse]
+tags: [CTF, pwn]
 ---
 > While being super relevant with my meme references, I wrote a program to see how much you understand heap allocations. `nc mercury.picoctf.net 36605`
 
