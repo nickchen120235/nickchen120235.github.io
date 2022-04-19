@@ -291,6 +291,8 @@ if (((plVar3 == (long *)&DAT_00139d78) || (*plVar3 == 0x7b4654436f636970)) &&
 
 But by viewing the disassembled part of the large `if`s, it seems that the flag is checked by cascading `if`s because of the continuous pattern of `MOV CMP JA LEA CMP JNZ`. This could attacked by timing side channel analysis if we don't want to reverse-engineer the whole process.
 
+{% include aligner.html images="posts/checkpass/ifs.png" column=1 %}
+
 ## Timing Side Channel Analysis
 Side-channeling means that instead of directly analyzing the target, we use some other information like power consumption (which could be used to break AES), or in this case, code execution time. Consider a string comparison is implemented like this
 ```python
