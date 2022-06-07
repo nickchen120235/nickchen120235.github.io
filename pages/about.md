@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 關於我
 permalink: /about/
 tags: []
 ---
@@ -13,6 +13,8 @@ tags: []
 
 會用的東西
 
-![javascript](https://raw.githubusercontent.com/mkrl/misbrands/master/javascript.svg){:style="max-height: 72px; padding-left: 0px; padding-right: 12px"} ![python](https://raw.githubusercontent.com/mkrl/misbrands/master/pip.svg){:style="max-height: 72px; padding-left: 0px; padding-right: 12px"} ![reactjs](https://raw.githubusercontent.com/mkrl/misbrands/master/react.svg){:style="max-height: 72px; padding-left: 0px; padding-right: 12px"}
+![javascript](https://raw.githubusercontent.com/mkrl/misbrands/master/javascript.svg){:style="max-height: 72px; padding-left: 0px; padding-right: 12px"} ![python](https://raw.githubusercontent.com/mkrl/misbrands/c4d8e7becaaa67a7eb354dd7ef8ea4dcdd941ead/python.svg){:style="max-height: 72px; padding-left: 0px; padding-right: 12px"} ![reactjs](https://raw.githubusercontent.com/mkrl/misbrands/master/react.svg){:style="max-height: 72px; padding-left: 0px; padding-right: 12px"}
+
+除了寫code之外，還有模擬航管（VATSIM vZNY S3）、模擬飛行、J-POP
 
 最近迷上了搖曳露營 ![yurucamp-shimarin]({{"/assets/img/shimarin.png" | relative_url}}){:style="max-height: 72px; padding-left: 0px"}
