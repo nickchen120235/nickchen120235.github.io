@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AIS3 2022 pre-exam The Best Login UI
+title: NoSQL Injection - AIS3 2022 pre-exam The Best Login UI
 tags: [CTF, web]
 ---
 > 我做ㄌ世界上最棒的登入介面，現在給你看看 ><
