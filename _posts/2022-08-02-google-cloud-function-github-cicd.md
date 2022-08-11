@@ -41,6 +41,9 @@ GitHub Actions的部份只要注意`with/credentials_json`有設好就好
 
 還有Functions deploy完預設是只有authenticated的使用者才可以存取，要開給所有人的話參考[https://cloud.google.com/functions/docs/securing/managing-access-iam#after_deployment](https://cloud.google.com/functions/docs/securing/managing-access-iam#after_deployment)
 
+## NPM packages？
+可以使用`require`去引用其他的package，但是要記得把`package.json`跟`package-lock.json`一起複製到`build/`（或到時候deploy的資料夾），這樣在Google Cloud Functions那端deploy的時候就不會有問題
+
 ## 參考資料
 - [gcloud iam service-accounts add-iam-policy-binding \| Google Cloud CLI Documentation](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/add-iam-policy-binding)
 - [Using IAM to Authorize Access \| Cloud Functions Documentation \| Google Cloud](https://cloud.google.com/functions/docs/securing/managing-access-iam#after_deployment)
