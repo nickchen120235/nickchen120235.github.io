@@ -6,7 +6,7 @@ tags: [Notes]
 [這篇文章](https://nickchen120235.github.io/2022/08/02/google-cloud-function-github-cicd.html)的後續，目前總共試了三個Google Cloud 服務
 
 - Google Cloud Function [對應的GitHub Repo (with TypeScript)](https://github.com/nickchen120235/google-cloud-cicd-ts)
-- Google Firestore ~~(還沒完成)~~
+- Google Firestore [對應的GitHub Repo (with TypeScript)](https://github.com/nickchen120235/gcf-firestore-ts)
 - Google Cloud Storage [對應的GitHub Repo (with Python)](https://github.com/nickchen120235/github-cicd-python-gcs)
 
 一般來說使用者權限要盡量小（最小權限原則），所以現在在嘗試自訂角色去設權限，只要能夠上傳/更新就可以
