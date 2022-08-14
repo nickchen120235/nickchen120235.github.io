@@ -59,6 +59,8 @@ Google有提供一個[Setup Google Cloud SDK的GitHub Action](https://github.com
 
 <script src="https://gist.github.com/nickchen120235/ff0e043572b609134a37a47f4bb5b0b2.js"></script>
 
+btw如果Service Account是自訂的話，要多給一個`storage.buckets.delete`權限
+
 ## 參考資料
 - [gcloud iam service-accounts add-iam-policy-binding \| Google Cloud CLI Documentation](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/add-iam-policy-binding)
 - [Using IAM to Authorize Access \| Cloud Functions Documentation \| Google Cloud](https://cloud.google.com/functions/docs/securing/managing-access-iam#after_deployment)
