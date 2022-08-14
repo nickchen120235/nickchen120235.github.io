@@ -44,8 +44,24 @@ GitHub Actions的部份只要注意`with/credentials_json`有設好就好
 ## NPM packages？
 可以使用`require`去引用其他的package，但是要記得把`package.json`跟`package-lock.json`一起複製到`build/`（或到時候deploy的資料夾），這樣在Google Cloud Functions那端deploy的時候就不會有問題
 
+## `us.artifacts.<PROJECT_ID>.appspot.com`？
+~~要客家就要把東西清乾淨~~
+
+想說換區了應該不會再被收錢了吧，結果還是有消費紀錄，打開Google Cloud Console一看才發現有一個multi-region的bucket出現在那邊~~，有人在搞？~~
+
+餵狗之後才發現說那是Cloud Build留下來的痕跡，由於Cloud Functions在佈署的時候會使用Cloud Build，所以就會留下一堆container的cache
+
+手動清除是沒有問題，可是既然都用CI/CD了，當然這個部份也要自動化
+
+Google有提供一個[Setup Google Cloud SDK的GitHub Action](https://github.com/google-github-actions/setup-gcloud)，**在Authentication**完之後使用就可以使用`gcloud`、`gsutil`這兩個CLI工具，在佈署完後加上一個step去清就可以了
+
+也就是像這樣的`action.yml`
+
+<script src="https://gist.github.com/nickchen120235/ff0e043572b609134a37a47f4bb5b0b2.js"></script>
+
 ## 參考資料
 - [gcloud iam service-accounts add-iam-policy-binding \| Google Cloud CLI Documentation](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/add-iam-policy-binding)
 - [Using IAM to Authorize Access \| Cloud Functions Documentation \| Google Cloud](https://cloud.google.com/functions/docs/securing/managing-access-iam#after_deployment)
 - [google-github-actions/auth](https://github.com/google-github-actions/auth)
 - [google-github-actions/deploy-cloud-functions](https://github.com/google-github-actions/deploy-cloud-functions)
+- [Can I delete container images from Google Cloud Storage artifacts bucket? - Stack Overflow](https://stackoverflow.com/questions/59937542/can-i-delete-container-images-from-google-cloud-storage-artifacts-bucket)
