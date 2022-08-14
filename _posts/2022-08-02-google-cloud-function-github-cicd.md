@@ -61,6 +61,11 @@ Google有提供一個[Setup Google Cloud SDK的GitHub Action](https://github.com
 
 btw如果Service Account是自訂的話，要多給一個`storage.buckets.delete`權限
 
+## Environment Variables
+如果想要使用環境變數的話，在佈署的時候加一個選項`env_vars`就好
+
+Bonus：要把npm的`npm_package_version`弄出去的話，把它加到GitHub Actions的`$GITHUB_ENV`就好，[詳細寫法](https://github.com/nickchen120235/google-cloud-cicd-ts/blob/master/.github/workflows/main.yml#L55)
+
 ## 參考資料
 - [gcloud iam service-accounts add-iam-policy-binding \| Google Cloud CLI Documentation](https://cloud.google.com/sdk/gcloud/reference/iam/service-accounts/add-iam-policy-binding)
 - [Using IAM to Authorize Access \| Cloud Functions Documentation \| Google Cloud](https://cloud.google.com/functions/docs/securing/managing-access-iam#after_deployment)
