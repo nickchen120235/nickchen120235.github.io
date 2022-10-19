@@ -1,8 +1,9 @@
+/* @preserve Dark mode Init */
 /*
  * There are two color palettes on CSS for the data-theme: 'light' and 'dark'.
- * Initially the script check if a theme is set in session storage and alternatively listens to a MediaQuery callback looking for "prefers-color-scheme: dark".
+ * Initially the script check if a theme is set in session storage and
+ * alternatively listens to a MediaQuery callback looking for "prefers-color-scheme: dark".
  */
-
 
 const themeButton = {
     'light': '<i class="fas fa-adjust" aria-hidden="true"></i>',
@@ -14,7 +15,10 @@ const currentTheme = () => sessionStorage.getItem('theme')
 function setMode(theme) {
     document.documentElement.setAttribute('data-theme', theme)
     sessionStorage.setItem('theme', theme)
-    document.getElementById('theme-toggle').innerHTML = themeButton[theme]
+    const toggle = document.getElementById('theme-toggle')
+    if (toggle) {
+        toggle.innerHTML = themeButton[theme]
+    }
 }
 
 function themeToggle() {
