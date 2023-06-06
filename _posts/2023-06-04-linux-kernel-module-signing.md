@@ -45,10 +45,10 @@ sudo mokutil --import MOK.der
 <img src="https://nickchen120235.s3.tebi.io/493c3667.png" style="display: block; margin: auto" />
 
 進來之後可以確認要加入的 MOK 是不是剛才建立的那個
-
-<img src="https://nickchen120235.s3.tebi.io/52044107.png" style="display: block; margin: auto" />
-
-<img src="https://nickchen120235.s3.tebi.io/771a91b9.png" style="display: block; margin: auto" />
+<div style="display: flex; margin-bottom: 20px">
+    <img src="https://nickchen120235.s3.tebi.io/52044107.png" style="padding: 0 8px" />
+    <img src="https://nickchen120235.s3.tebi.io/771a91b9.png" style="padding: 0 8px" />
+</div>
 
 確認完之後按任意鍵回到 Enroll MOK 的畫面，選擇「Continue」後選擇「Yes」確認加入 MOK
 
