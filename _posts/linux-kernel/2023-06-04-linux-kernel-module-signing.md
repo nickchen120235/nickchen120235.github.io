@@ -14,7 +14,7 @@ insmod: ERROR: could not insert module ./test-kernel.ko: Key was rejected by ser
 
 查了一下，由於 UEFI Secure Boot 的關係，自己寫的 kernel module 也要簽名，因此這篇文章就是要來弄這件事
 
-### 1. 建立簽名用的公私鑰對 Machine Owner Key (MOK)
+## 1. 建立簽名用的公私鑰對 Machine Owner Key (MOK)
 首先使用 `openssl` 建立 DER 格式的公私鑰對，把輸出檔案放在 `~/.keys` 資料夾
 
 在 `~/.keys` 資料夾底下執行
@@ -27,7 +27,7 @@ openssl req -new -x509 -newkey rsa:2048 -nodes -days 36500 -outform DER -keyout 
 
 > `kmodsign` 好像只支援 RSA，在測試中 ED25519 是不能使用的
 
-### 2. 註冊 MOK 到 firmware (的 shim) 中
+## 2. 註冊 MOK 到 firmware (的 shim) 中
 使用 `mokutil` 註冊剛剛建立的 MOK 的公鑰
 
 ```bash
@@ -95,7 +95,7 @@ Certificate:
 ...
 ```
 
-### 3. 使用 MOK 進行簽名
+## 3. 使用 MOK 進行簽名
 
 簽名使用 `kmodsign`，使用時同時需要公鑰與私鑰，格式如下，通常使用 `sha512` 作為 hash 的演算法
 
