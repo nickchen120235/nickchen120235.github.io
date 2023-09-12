@@ -5,4 +5,4 @@ permalink: /friend/
 tags: []
 ---
 
-- Ander's Blog - Shitty Code Shitty Life: [https://blog.ovo.anderwei.net/](https://blog.ovo.anderwei.net/)
+- Ander's Blog - Shitty Code Shitty Life: [https://blog.anderwei.dev/](https://blog.anderwei.dev/)
