@@ -28,3 +28,4 @@ tags: []
 - 3/8 SMA 50th Anniversary presents「TOMORI FES.」supported by KT Zepp Yokohama 5th Anniversary @ KT Zepp Yokohama
 - 3/9 ラブライブ！スーパースター!! Liella! 6th LoveLive! Tour ～Let's be ONE～ ＜東京公演＞ Day2 @ 国立代々木競技場第一体育館
 - 4/19 CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2025 in TAIPEI @ Zepp New Taipei
+- 5/24 ANISAMA WORLD 2025 in TAOYUAN @ 桃園會展中心
