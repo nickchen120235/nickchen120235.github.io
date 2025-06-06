@@ -29,3 +29,4 @@ tags: []
 - 3/9 ラブライブ！スーパースター!! Liella! 6th LoveLive! Tour ～Let's be ONE～ ＜東京公演＞ Day2 @ 国立代々木競技場第一体育館
 - 4/19 CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2025 in TAIPEI @ Zepp New Taipei
 - 5/24 ANISAMA WORLD 2025 in TAOYUAN @ 桃園會展中心
+- 6/7、6/8 ラブライブ！蓮ノ空女学院スクールアイドルクラブ 4th Live Dream ～Bloom, The Dream Believers～ ＜102期卒業公演＞ @ Kアリーナ横浜
