@@ -30,3 +30,6 @@ tags: []
 - 4/19 CENTRAL MUSIC & ENTERTAINMENT FESTIVAL 2025 in TAIPEI @ Zepp New Taipei
 - 5/24 ANISAMA WORLD 2025 in TAOYUAN @ 桃園會展中心
 - 6/7、6/8 ラブライブ！蓮ノ空女学院スクールアイドルクラブ 4th Live Dream ～Bloom, The Dream Believers～ ＜102期卒業公演＞ @ Kアリーナ横浜
+- 8/9、8/10 ラブライブ！スーパースター!! Liella! First Generation LoveLive! ～Wonderful Starlines～ ＜東京公演＞ @ 有明アリーナ
+- 8/11 ラブライブ！スーパースター!! Liella! Special LoveLive! ～Connect the Stars～ @ 有明アリーナ
+- 8/14 U-NEXT MUSIC FES LoveLive! Series EXPO STAGE ～Right now!～ @ 大阪・関西万博 EXPOアリーナ「Matsuri」
