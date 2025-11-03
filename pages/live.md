@@ -33,3 +33,5 @@ tags: []
 - 8/9、8/10 ラブライブ！スーパースター!! Liella! First Generation LoveLive! ～Wonderful Starlines～ ＜東京公演＞ @ 有明アリーナ
 - 8/11 ラブライブ！スーパースター!! Liella! Special LoveLive! ～Connect the Stars～ @ 有明アリーナ
 - 8/14 U-NEXT MUSIC FES LoveLive! Series EXPO STAGE ～Right now!～ @ 大阪・関西万博 EXPOアリーナ「Matsuri」
+- 11/22、11/23 リスアニ！LIVE TAIPEI 2025 @ 台灣大學綜合體育館
+- 12/22 TOMORI KUSUNOKI BIRTHDAY LIVE 2025 @ EXシアター六本木
