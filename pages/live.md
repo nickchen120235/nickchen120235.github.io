@@ -36,3 +36,8 @@ tags: []
 - 11/22、11/23 リスアニ！LIVE TAIPEI 2025 @ 台灣大學綜合體育館
 - 12/21 えみつん＆結那のゆるっとクリキャン！トーク @ 大井競馬場
 - 12/22 TOMORI KUSUNOKI BIRTHDAY LIVE 2025 @ EXシアター六本木
+
+## 2026
+
+- 2/7、2/8 ラブライブ！スーパースター!! Liella! 7th LoveLive! ～Fly! MUSIC WORLD♪～ ＜神奈川公演＞ @ 横浜アリーナ
+- 3/21 前島亞美 粉絲見面會 2026 in 台北 @ MOONDOG(Breeze MEGA Studio)
