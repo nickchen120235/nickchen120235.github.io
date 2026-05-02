@@ -41,3 +41,6 @@ tags: []
 
 - 2/7、2/8 ラブライブ！スーパースター!! Liella! 7th LoveLive! ～Fly! MUSIC WORLD♪～ ＜神奈川公演＞ @ 横浜アリーナ
 - 3/21 前島亞美 粉絲見面會 2026 in 台北 @ MOONDOG(Breeze MEGA Studio)
+- 5/23 結那 Fan Meeting in Taipei 2026 @ MOONDOG(Breeze MEGA Studio)
+- 6/13 NagiSalon 2026 ～青山渚 FAN MEETING in TAIPEI～ @ CLAPPER STUDIO
+- 6/21 SUZUKI AIRI LIVE 2026 ll：Bias by us：ll in Taipei @ Zepp New Taipei
