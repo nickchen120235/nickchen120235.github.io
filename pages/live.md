@@ -44,3 +44,8 @@ tags: []
 - 5/23 結那 Fan Meeting in Taipei 2026 @ MOONDOG(Breeze MEGA Studio)
 - 6/13 NagiSalon 2026 ～青山渚 FAN MEETING in TAIPEI～ @ CLAPPER STUDIO
 - 6/21 SUZUKI AIRI LIVE 2026 ll：Bias by us：ll in Taipei @ Zepp New Taipei
+- 7/26 2026第25回 台湾漫画博覧会 ICHIBAN JAPAN 日本館 STAGE 青山渚見面會 @ 台北世貿中心展覽一館
+- 8/30 八木海莉 ONE-MAN LIVE 2026 in TAIPEI @ CLAPPER STUDIO
+- 9/5、9/6 ラブライブ！スーパースター!! Liella! 結女体育祭 1日目 昼の部 @ 東京体育館 メインアリーナ
+- 9/7 LustQueen「The story resumes EXTRA」 @ 下北沢シャングリラ
+- 9/8 LustQueen「Stairway to Queen vol.5」 @ 下北沢シャングリラ
